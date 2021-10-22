@@ -32,11 +32,11 @@ int main() {
 		sem_wait(mutex); //Unlock mutex
 		if (*table > 0) {
 			--(*table);
+			std::cout << "Item consumed." << std::endl << "Table contains " << *table << " items\n";
 		} else {
 			std::cout << "Buffer is empty!\n";
 		}
 		sem_post(mutex); //Close mutex
-                std::cout << "Item consumed." << std::endl << "Table contains " << *table << " items\n";
 		sem_post(empty); //Decrement empty semaphore
 	}
 
