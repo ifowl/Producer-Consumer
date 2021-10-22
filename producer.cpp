@@ -32,12 +32,11 @@ int main() {
 		sem_wait(mutex); //Unlock mutex
 		if(*table < 2) {
 			++(*table);
+			std::cout << "Item produced." << std::endl << "Table contains: " << *table << " items\n";
 		} else {
 			std::cout << "Buffer is full!\n";
 		}
 		sem_post(mutex); //Lock mutex
-
-		std::cout << "Item produced." << std::endl << "Table contains: " << *table << " items\n";
 		sem_post(full); //Decrement full semaphore
 	}
 
