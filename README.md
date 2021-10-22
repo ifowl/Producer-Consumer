@@ -16,4 +16,4 @@ Run executables symultaneously:
 
 ## Example output of program:
 
-![Result](https://i.imgur.com/QkEiclU.png)
+![Result](https://i.imgur.com/lsIDx8H.png)
