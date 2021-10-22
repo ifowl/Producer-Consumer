@@ -14,6 +14,6 @@ or
 Run executables symultaneously:
 > ./producer & ./consumer &
 
-##Example output of program:
+## Example output of program:
 
 ![Result](https://i.imgur.com/QkEiclU.png)
