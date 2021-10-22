@@ -1,5 +1,6 @@
 # Producer-Consumer
 Assignment for OS Programming Assignment #1
+Comments are provided within code
 
 Compile code by using:
 > g++ producer.cpp -pthread -lrt -o producer 
