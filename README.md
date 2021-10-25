@@ -1,5 +1,5 @@
 # Producer-Consumer
-OS Programming Assignment #1 - Comments are provided within code
+OS Programming Assignment #1 - Documentation is provided via comments within code
 
 ##### Step 1:
 Compile code by using:
